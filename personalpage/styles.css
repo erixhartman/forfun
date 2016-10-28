@@ -1,0 +1,33 @@
+body {
+    background-image: url("kermit.jpg");
+}
+
+#navbuttons li {
+  list-style-type: none;
+  display: inline;
+}
+
+#navbuttons a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#navbuttons{
+  width: 100%;
+  background-color: #d3d3d3;
+  height: 40px;
+  border: white solid 1px;
+  text-align: center;
+  padding-top: 15px;
+  display: inline;
+
+}
+
+background-color: #ff6969;
+
+
+#navcontainer li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 20px;
+}
