@@ -1,5 +1,7 @@
 body {
     background-image: url("kermit.jpg");
+    position: fixed;
+
 }
 
 #navbuttons li {
@@ -7,27 +9,36 @@ body {
   display: inline;
 }
 
-#navbuttons a {
-  text-decoration: none;
-  color: #fff;
+#topbar {
+  text-align: center;
 }
 
 #navbuttons{
-  width: 100%;
-  background-color: #d3d3d3;
-  height: 40px;
-  border: white solid 1px;
   text-align: center;
-  padding-top: 15px;
   display: inline;
-
+  padding-left: 240px;
 }
 
-background-color: #ff6969;
-
-
+.section {
+  font-weight: bold;
+  font-family: Georgia, Verdana, serif;
+  font-style: italic;
+  font-size: 40px;
+}
+/*
 #navcontainer li {
   display: inline;
   list-style-type: none;
   padding-right: 20px;
+}*/
+
+#copyright {
+    position:absolute;
+    width:100%;
+    bottom:0px;
+    padding-top: 100px;
+}
+
+.year {
+  float: right;
 }
